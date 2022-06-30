@@ -20,7 +20,7 @@ function generatePassword(){
   } else if (lengthAnswer > 25){
     window.alert(lengthAnswer +" is not a valid selection. Please try again.");
     return invalid.value = sayInvalid;
-  } else if (lengthAnswer < 5){
+  } else if (lengthAnswer < 8){
     window.alert(lengthAnswer +" is not a valid number");
     return invalid.value = sayInvalid;
   }
