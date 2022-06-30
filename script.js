@@ -1,7 +1,7 @@
 var generateBtn = document.querySelector("#generate");
 var invalid = document.querySelector("#password");
 var length ;
-var minLength = 5;
+var minLength = 8;
 var maxLength = 25;
 var sayInvalid = "Invalid input.";
 var uppers = ["Q","W","E","R","T","Y","U","I","O","P","A","S","D","F","G","H","J","K","L","Z","X","C","V","B","N","M"];
